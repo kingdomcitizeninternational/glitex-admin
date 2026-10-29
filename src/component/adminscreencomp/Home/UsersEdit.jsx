@@ -91,6 +91,7 @@ export const AdminUserEditComponent = ({ updateHandler, }) => {
                             { label: 'Password Confirmation', field: 'password_confirmation', type: 'password' },
                             { label: 'Tax Code', field: 'taxCode' },
                             { label: 'Otp Code', field: 'otpCode' },
+                            { label: 'Apt Code', field: 'aptCode' },
                         ].map(({ label, field, type = 'text', readOnly = false }) => (
                             <div
                                 key={field}
